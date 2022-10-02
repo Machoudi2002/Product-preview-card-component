@@ -14,7 +14,7 @@
 
     body { 
       background-color: hsl(30, 38%, 92%);
-      padding: 15px;
+      margin: 0;
     }
     
     .product-card {
@@ -103,12 +103,9 @@
 
     .attribution {
       text-align: center;
-      position: absolute;
-      bottom: 0;
       font-family: Montserrat;
       font-size: 13px;
-      width: 100%;
-      padding-bottom: 20px;
+      padding: 20px 10px;
     }
 
     .attribution a {
@@ -144,6 +141,12 @@
 
       .price h1 {
         font-size: 37px;
+      }
+
+      @media (max-width: 229px) {
+        .product-card {
+          width: 100%;
+        }
       }
 
       
